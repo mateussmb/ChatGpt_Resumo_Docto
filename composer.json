@@ -1,0 +1,19 @@
+{
+	"name" : "cognitiva/docto",
+	"autoload" : {
+		"psr-4" : {
+			"Cognitiva\\Docto\\" : "src/"
+		}
+	},
+	"authors" : [{
+			"name" : "Mateus",
+			"email" : "mateus@cognitiva-ti.com.br"
+		}
+	],
+	"require" : {
+		"phpoffice/phpword" : "^0.18.3",
+		"guzzlehttp/guzzle" : "^6.5",
+		"mimepost/mimepost-php" : "^1.0",
+		"smalot/pdfparser": "^0.19.0"
+	}
+}
